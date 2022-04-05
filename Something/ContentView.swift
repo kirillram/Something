@@ -11,9 +11,10 @@ struct ContentView: View {
     var body: some View {
         
         VStack {
-            Image(systemName:"sun.max")
+            Image(systemName:"cloud")
                 .resizable()
-                .frame(width: 200, height: 200)
+                .scaledToFit()
+                .frame(width: 200)
                 .padding()
             Label("Wowzers!" , systemImage: "12.circle")
             Text("Good App")
